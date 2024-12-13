@@ -1,14 +1,16 @@
+import sys
 import pandas 
 from sqlalchemy import create_engine
 
 # 1. excel_file
 ##############################################################################
 
-excel_file = './__excel/test_1.xlsx'
-df = pandas.read_excel(excel_file           # 파일 경로
-                     , skiprows=1           # 읽어들일 row
-                     , usecols='B:I'        # 읽어들일 column 범위
-                     , header=1)            # 헤더 row
+excel_file = sys.argv[0] # 파일 경로
+first_rows = sys.argv[1] # 읽어들일 시작 row
+col_ranges = sys.argv[2] # 읽어들일 column 범위
+col_header = sys.argv[3] # 헤더 row
+
+df = pandas.read_excel( excel_file , skiprows = first_rows , usecols = col_ranges , header = col_header )
 
 ##############################################################################
 
@@ -23,11 +25,20 @@ table_name = 'orders'
 
 ##############################################################################
 
-# 3. database insert
+
+# 3. validation
 ##############################################################################
 
-df.to_sql(table_name, con=engine, if_exists='append', index=False)
+
 
 ##############################################################################
 
-print(f'{len(df)} rows inserted into the table {table_name} successfully.')
+
+# 4. database insert
+##############################################################################
+
+# df.to_sql(table_name, con=engine, if_exists='append', index=False)
+
+##############################################################################
+
+# print(f'{len(df)} rows inserted into the table {table_name} successfully.')
