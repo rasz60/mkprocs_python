@@ -1,0 +1,78 @@
+2024-12-16 16:48:07,308 - DEBUG - /* Excel Parser Started */
+2024-12-16 16:48:07,316 - DEBUG - file=./__excel/ae0c2591-82dd-468a-a32a-4fef3728400d.xlsx, skiprows=2, usecols=B:I, header=0
+2024-12-16 16:48:07,939 - DEBUG - 5 rows inserted into the table c:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/excel_parser.py successfully.
+2024-12-16 16:48:07,939 - DEBUG - /* Excel Parser Ended */
+2024-12-16 16:51:52,569 - DEBUG - /* Excel Parser Started */
+2024-12-16 16:51:52,570 - DEBUG - file=./__excel/ae0c2591-82dd-468a-a32a-4fef3728400d.xlsx, skiprows=2, usecols=B:I, header=0
+2024-12-16 16:51:53,051 - DEBUG - 5 rows inserted into the table c:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/excel_parser.py successfully.
+2024-12-16 16:51:53,052 - DEBUG - /* Excel Parser Ended */
+2024-12-16 16:55:45,118 - DEBUG - /* Excel Parser Started */
+2024-12-16 16:55:45,118 - DEBUG - file=./__excel/ae0c2591-82dd-468a-a32a-4fef3728400d.xlsx, skiprows=2, usecols=B:I, header=0
+2024-12-16 16:55:45,604 - DEBUG - 5 rows inserted into the table c:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/excel_parser.py successfully.
+2024-12-16 16:55:45,604 - DEBUG - /* Excel Parser Ended */
+2024-12-16 16:56:33,767 - DEBUG - /* Excel Parser Started */
+2024-12-16 16:56:33,768 - DEBUG - file=./__excel/ae0c2591-82dd-468a-a32a-4fef3728400d.xlsx, skiprows=2, usecols=B:I, header=0
+2024-12-16 17:11:37,527 - DEBUG - /* Excel Parser Started */
+2024-12-16 17:11:37,968 - ERROR - 엑셀 파일 로드 성공 : file=./__excel/ae0c2591-82dd-468a-a32a-4fef3728400d.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-16 17:11:38,031 - ERROR - DB Connect - success
+2024-12-16 17:11:38,040 - ERROR - Validation - success
+2024-12-16 17:11:38,041 - ERROR - 5 rows inserted into the table c:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/excel_parser.py successfully.
+2024-12-16 17:11:38,041 - DEBUG - /* Excel Parser Ended */
+2024-12-16 17:16:27,572 - DEBUG - /* Excel Parser Started */
+2024-12-16 17:16:28,177 - DEBUG - 엑셀 파일 로드 성공 : file=./__excel/ae0c2591-82dd-468a-a32a-4fef3728400d.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-16 17:16:28,249 - DEBUG - DB Connect - success
+2024-12-16 17:16:28,251 - DEBUG - Validation - success
+2024-12-16 17:16:28,251 - DEBUG - 5 rows inserted into the table c:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/excel_parser.py successfully.
+2024-12-16 17:16:28,251 - DEBUG - /* Excel Parser Ended */
+2024-12-16 17:17:25,186 - DEBUG - /* Excel Parser Started */
+2024-12-16 17:17:25,658 - DEBUG - 엑셀 파일 로드 성공 : file=./__excel/ae0c2591-82dd-468a-a32a-4fef3728400d.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-16 17:17:25,739 - DEBUG - DB Connect - success
+2024-12-16 17:17:25,741 - DEBUG - Validation - success
+2024-12-16 17:17:25,741 - DEBUG - 5 rows inserted into the table c:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/excel_parser.py successfully.
+2024-12-16 17:17:25,741 - DEBUG - excel_parse success
+2024-12-16 17:17:25,742 - DEBUG - /* Excel Parser Ended */
+2024-12-16 17:18:27,644 - DEBUG - /* Excel Parser Started */
+2024-12-16 17:18:28,154 - DEBUG - 엑셀 파일 로드 성공 : file=./__excel/ae0c2591-82dd-468a-a32a-4fef3728400d.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-16 17:18:28,226 - DEBUG - DB Connect - success
+2024-12-16 17:18:28,227 - DEBUG - Validation - success
+2024-12-16 17:18:28,227 - DEBUG - 5 rows inserted into the table orders successfully.
+2024-12-16 17:18:28,228 - DEBUG - excel_parse success
+2024-12-16 17:18:28,228 - DEBUG - /* Excel Parser Ended */
+2024-12-16 17:22:16,392 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-16 17:22:16.392313------------------------*/
+2024-12-16 17:22:16,951 - DEBUG - 엑셀 파일 로드 성공 : file=./__excel/ae0c2591-82dd-468a-a32a-4fef3728400d.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-16 17:22:17,036 - DEBUG - DB Connect - success
+2024-12-16 17:22:17,036 - DEBUG - Validation - success
+2024-12-16 17:22:17,036 - DEBUG - 5 rows inserted into the table [orders] successfully.
+2024-12-16 17:22:17,037 - DEBUG - excel_parse success
+2024-12-16 17:22:17,037 - DEBUG - /*------------------------[ExcelParser] End : 2024-12-16 17:22:17.037314------------------------*/
+2024-12-16 17:33:09,896 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-16 17:33:09.896973------------------------*/
+2024-12-16 17:33:10,300 - DEBUG - [STEP-1] EXCEL_LOAD : file=./__excel/ae0c2591-82dd-468a-a32a-4fef3728400d.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-16 17:33:10,359 - DEBUG - [STEP-2] DB Connect : mysql+pymysql://mkprocs:mkprocs1234%21%40@localhost:3306/mkprocsDB
+2024-12-16 17:33:10,359 - DEBUG - [STEP-3] VALIDATION : SUCCESS
+2024-12-16 17:33:10,359 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders] successfully.
+2024-12-16 17:33:10,359 - DEBUG - [STEP-5] UPDATE : SUCCESS
+2024-12-16 17:33:10,360 - DEBUG - /*------------------------[ExcelParser] End : 2024-12-16 17:33:10.360971------------------------*/
+2024-12-16 17:50:50,054 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-16 17:50:50.053454------------------------*/
+2024-12-16 17:50:50,578 - DEBUG - [STEP-1] EXCEL_LOAD : file=./__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-16 17:50:50,644 - DEBUG - [STEP-2] DB Connect : mysql+pymysql://mkprocs:mkprocs1234%21%40@localhost:3306/mkprocsDB
+2024-12-16 17:50:50,654 - DEBUG - VALIDATION - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-16 17:50:50,655 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-16 17:50:50,655 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-16 17:50:50,656 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-16 17:50:50.656454------------------------*/
+2024-12-16 17:51:41,048 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-16 17:51:41.048123------------------------*/
+2024-12-16 17:51:41,509 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-16 17:51:41,573 - DEBUG - [STEP-2] DB Connect : mysql+pymysql://mkprocs:mkprocs1234%21%40@localhost:3306/mkprocsDB
+2024-12-16 17:51:41,582 - DEBUG - VALIDATION - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-16 17:51:41,583 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-16 17:51:41,583 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-16 17:51:41,584 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-16 17:51:41.584122------------------------*/
