@@ -1,0 +1,301 @@
+2024-12-17 11:34:08,209 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 11:34:08.209014------------------------*/
+2024-12-17 11:34:09,001 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 11:34:09,174 - DEBUG - [STEP-2] DB Connect : mysql+pymysql://mkprocs:mkprocs1234%21%40@localhost:3306/mkprocsDB
+2024-12-17 11:34:09,191 - DEBUG - VALIDATION - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 11:34:09,193 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 11:34:09,193 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 11:34:09,193 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 11:34:09.193013------------------------*/
+2024-12-17 13:33:58,360 - DEBUG - /*------------------------[ExcelParser > Validation] Start : 2024-12-17 13:33:58.360556------------------------*/
+2024-12-17 13:33:58,362 - DEBUG - /*------------------------[ExcelParser > Validation] E n d : 2024-12-17 13:33:58.362556------------------------*/
+2024-12-17 13:33:58,366 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:33:58.366557------------------------*/
+2024-12-17 13:33:58,366 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:33:58.366557------------------------*/
+2024-12-17 13:34:10,772 - DEBUG - /*------------------------[ExcelParser > Validation] Start : 2024-12-17 13:34:10.771965------------------------*/
+2024-12-17 13:34:10,773 - DEBUG - /*------------------------[ExcelParser > Validation] E n d : 2024-12-17 13:34:10.773966------------------------*/
+2024-12-17 13:34:10,775 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:34:10.774966------------------------*/
+2024-12-17 13:34:10,775 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:34:10.774966------------------------*/
+2024-12-17 13:35:21,800 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:35:21.800470------------------------*/
+2024-12-17 13:35:51,314 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:35:51.314059------------------------*/
+2024-12-17 13:35:51,877 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:35:52,065 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:35:52,079 - DEBUG - /*------------------------[ExcelParser > Validation] Start : 2024-12-17 13:35:52.079059------------------------*/
+2024-12-17 13:35:52,079 - DEBUG - /*------------------------[ExcelParser > Validation] Start : 2024-12-17 13:35:52.079059------------------------*/
+2024-12-17 13:35:52,079 - DEBUG - /*------------------------[ExcelParser > Validation] E n d : 2024-12-17 13:35:52.079059------------------------*/
+2024-12-17 13:35:52,079 - DEBUG - /*------------------------[ExcelParser > Validation] E n d : 2024-12-17 13:35:52.079059------------------------*/
+2024-12-17 13:35:52,080 - DEBUG - chkOrders data length : 5 rows
+2024-12-17 13:35:52,080 - DEBUG - chkOrders data length : 5 rows
+2024-12-17 13:35:52,096 - DEBUG - VALIDATION - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 13:35:52,096 - DEBUG - VALIDATION - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 13:35:52,098 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 13:35:52,098 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 13:35:52,099 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 13:35:52,099 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 13:35:52,099 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:35:52.099058------------------------*/
+2024-12-17 13:35:52,099 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:35:52.099058------------------------*/
+2024-12-17 13:39:32,905 - DEBUG - /*------------------------[ExcelParser > Validation] Start : 2024-12-17 13:39:32.905428------------------------*/
+2024-12-17 13:39:32,905 - DEBUG - /*------------------------[ExcelParser > Validation] E n d : 2024-12-17 13:39:32.905428------------------------*/
+2024-12-17 13:40:05,215 - DEBUG - /*------------------------[ExcelParser > Validation] Start : 2024-12-17 13:40:05.214983------------------------*/
+2024-12-17 13:40:05,215 - DEBUG - /*------------------------[ExcelParser > Validation] E n d : 2024-12-17 13:40:05.215984------------------------*/
+2024-12-17 13:40:30,260 - DEBUG - /*------------------------[ExcelParser > Validation] Start : 2024-12-17 13:40:30.260869------------------------*/
+2024-12-17 13:40:30,261 - DEBUG - /*------------------------[ExcelParser > Validation] E n d : 2024-12-17 13:40:30.261871------------------------*/
+2024-12-17 13:40:30,262 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:40:30.262869------------------------*/
+2024-12-17 13:40:30,262 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:40:30.262869------------------------*/
+2024-12-17 13:40:30,963 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:40:30,963 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:40:31,074 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:40:31,074 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:40:31,075 - DEBUG - chkOrders data length : 5 rows
+2024-12-17 13:40:31,075 - DEBUG - chkOrders data length : 5 rows
+2024-12-17 13:40:31,086 - DEBUG - VALIDATION - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 13:40:31,086 - DEBUG - VALIDATION - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 13:40:31,089 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 13:40:31,089 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 13:40:31,089 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 13:40:31,089 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 13:40:31,090 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:40:31.090922------------------------*/
+2024-12-17 13:40:31,090 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:40:31.090922------------------------*/
+2024-12-17 13:41:33,530 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:41:33.530829------------------------*/
+2024-12-17 13:41:34,117 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:41:34,877 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:41:34,881 - DEBUG - /*------------------------[ExcelParser > Validation] Start : 2024-12-17 13:41:34.881829------------------------*/
+2024-12-17 13:41:34,881 - DEBUG - /*------------------------[ExcelParser > Validation] Start : 2024-12-17 13:41:34.881829------------------------*/
+2024-12-17 13:41:34,882 - DEBUG - /*------------------------[ExcelParser > Validation] E n d : 2024-12-17 13:41:34.882833------------------------*/
+2024-12-17 13:41:34,882 - DEBUG - /*------------------------[ExcelParser > Validation] E n d : 2024-12-17 13:41:34.882833------------------------*/
+2024-12-17 13:41:34,883 - DEBUG - chkOrders data length : 5 rows
+2024-12-17 13:41:34,883 - DEBUG - chkOrders data length : 5 rows
+2024-12-17 13:41:34,895 - DEBUG - VALIDATION - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 13:41:34,895 - DEBUG - VALIDATION - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 13:41:34,898 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 13:41:34,898 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 13:41:34,899 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 13:41:34,899 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 13:41:34,900 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:41:34.900830------------------------*/
+2024-12-17 13:41:34,900 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:41:34.900830------------------------*/
+2024-12-17 13:43:28,512 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:43:28.512546------------------------*/
+2024-12-17 13:43:29,061 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:43:29,928 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:43:53,411 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:43:53.411767------------------------*/
+2024-12-17 13:43:54,087 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:43:54,921 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:45:16,703 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:45:16.703804------------------------*/
+2024-12-17 13:45:17,291 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:45:18,282 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:45:18,306 - ERROR - [STEP-3] VALIDATION : FAIL
+2024-12-17 13:45:18,307 - ERROR - [STEP-5] EXCELPARSE : FAIL
+2024-12-17 13:45:18,308 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:45:18.308839------------------------*/
+2024-12-17 13:48:17,673 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:48:17.673925------------------------*/
+2024-12-17 13:48:18,370 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:48:19,216 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:48:19,231 - ERROR - [STEP-3] VALIDATION : FAIL
+2024-12-17 13:48:19,231 - ERROR - [STEP-5] EXCELPARSE : FAIL
+2024-12-17 13:48:19,231 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:48:19.231477------------------------*/
+2024-12-17 13:50:36,338 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:50:36.338817------------------------*/
+2024-12-17 13:50:37,048 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:50:37,839 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:50:37,856 - ERROR - [STEP-3] VALIDATION : FAIL
+2024-12-17 13:50:37,856 - ERROR - [STEP-5] EXCELPARSE : FAIL
+2024-12-17 13:50:37,857 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:50:37.857589------------------------*/
+2024-12-17 13:54:01,098 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:54:01.098104------------------------*/
+2024-12-17 13:54:01,770 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:54:02,517 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:54:02,529 - DEBUG - /*------------------------[chkData()] Start : 2024-12-17 13:54:02.529580------------------------*/
+2024-12-17 13:54:02,530 - ERROR - [STEP-3] VALIDATION : FAIL
+2024-12-17 13:54:02,530 - ERROR - [STEP-5] EXCELPARSE : FAIL
+2024-12-17 13:54:02,530 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:54:02.530575------------------------*/
+2024-12-17 13:55:08,074 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:55:08.074120------------------------*/
+2024-12-17 13:55:08,554 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:55:09,174 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:55:09,199 - DEBUG - /*------------------------[chkData(orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C, <Logger excel_parser (DEBUG)>)] Start : 2024-12-17 13:55:09.198890------------------------*/
+2024-12-17 13:55:09,200 - ERROR - [STEP-3] VALIDATION : FAIL
+2024-12-17 13:55:09,201 - ERROR - [STEP-5] EXCELPARSE : FAIL
+2024-12-17 13:55:09,201 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:55:09.201890------------------------*/
+2024-12-17 13:57:47,514 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:57:47.514143------------------------*/
+2024-12-17 13:57:48,010 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:57:48,819 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:57:48,834 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-17 13:57:48.834788------------------------*/
+2024-12-17 13:57:48,835 - DEBUG - /*------------------------[chkData(type=orders)] Exception : None------------------------*/
+2024-12-17 13:57:48,835 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-17 13:57:48.835787------------------------*/
+2024-12-17 13:57:48,836 - ERROR - 
+2024-12-17 13:57:48,836 - ERROR - [STEP-5] EXCELPARSE : FAIL
+2024-12-17 13:57:48,836 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:57:48.836788------------------------*/
+2024-12-17 13:58:43,073 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:58:43.073841------------------------*/
+2024-12-17 13:58:43,584 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:58:44,234 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:58:44,242 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-17 13:58:44.242841------------------------*/
+2024-12-17 13:58:44,243 - DEBUG - /*------------------------[chkData(type=orders)] Exception : None------------------------*/
+2024-12-17 13:58:44,244 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-17 13:58:44.244842------------------------*/
+2024-12-17 13:58:44,244 - ERROR - 
+2024-12-17 13:58:44,245 - ERROR - [STEP-5] EXCELPARSE : FAIL
+2024-12-17 13:58:44,245 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:58:44.245842------------------------*/
+2024-12-17 13:59:13,535 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 13:59:13.535161------------------------*/
+2024-12-17 13:59:14,025 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 13:59:14,658 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 13:59:14,674 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-17 13:59:14.674163------------------------*/
+2024-12-17 13:59:14,675 - DEBUG - ?
+2024-12-17 13:59:14,675 - ERROR - /*------------------------[chkData(type=orders)] Exception : None------------------------*/
+2024-12-17 13:59:14,675 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-17 13:59:14.675163------------------------*/
+2024-12-17 13:59:14,676 - ERROR - 
+2024-12-17 13:59:14,676 - ERROR - [STEP-5] EXCELPARSE : FAIL
+2024-12-17 13:59:14,676 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 13:59:14.676162------------------------*/
+2024-12-17 14:00:06,105 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 14:00:06.105622------------------------*/
+2024-12-17 14:00:06,645 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 14:00:07,268 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 14:00:07,280 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-17 14:00:07.280663------------------------*/
+2024-12-17 14:00:07,280 - DEBUG - ?
+2024-12-17 14:00:07,281 - ERROR - /*------------------------[chkData(type=orders)] Exception : None------------------------*/
+2024-12-17 14:00:07,281 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-17 14:00:07.281663------------------------*/
+2024-12-17 14:00:07,281 - ERROR - 
+2024-12-17 14:00:07,281 - ERROR - [STEP-5] EXCELPARSE : FAIL
+2024-12-17 14:00:07,282 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 14:00:07.282663------------------------*/
+2024-12-17 14:00:33,036 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 14:00:33.036887------------------------*/
+2024-12-17 14:00:33,547 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 14:00:34,160 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 14:00:34,174 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-17 14:00:34.174888------------------------*/
+2024-12-17 14:00:34,176 - DEBUG - ?
+2024-12-17 14:00:34,177 - DEBUG - [chkOrders(type=orders)] data length : 5 rows
+2024-12-17 14:00:34,194 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-17 14:00:34.193886------------------------*/
+2024-12-17 14:00:34,228 - DEBUG - [chkOrders()] - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 14:00:34,232 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 14:00:34,239 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 14:00:34,240 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 14:00:34.240887------------------------*/
+2024-12-17 16:46:46,237 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 16:46:46.237419------------------------*/
+2024-12-17 16:46:47,091 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 16:46:47,944 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 16:46:47,954 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-17 16:46:47.954030------------------------*/
+2024-12-17 16:46:47,954 - DEBUG - ?
+2024-12-17 16:46:47,954 - ERROR - /*------------------------[chkData(type=orders)] Exception : None------------------------*/
+2024-12-17 16:46:47,954 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-17 16:46:47.954030------------------------*/
+2024-12-17 16:46:47,955 - ERROR - 
+2024-12-17 16:46:47,955 - ERROR - [STEP-5] EXCELPARSE : FAIL
+2024-12-17 16:46:47,955 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 16:46:47.955035------------------------*/
+2024-12-17 16:48:42,317 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 16:48:42.317014------------------------*/
+2024-12-17 16:48:42,676 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 16:48:43,118 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 16:48:43,123 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-17 16:48:43.123640------------------------*/
+2024-12-17 16:48:43,124 - DEBUG - ?
+2024-12-17 16:48:43,124 - DEBUG - [chkOrders(type=orders)] data length : 5 rows
+2024-12-17 16:48:43,138 - DEBUG - [chkOrders()] - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 16:48:43,140 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-17 16:48:43.140637------------------------*/
+2024-12-17 16:48:43,140 - DEBUG - [chkOrders()] - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 16:48:43,141 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 16:48:43,141 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 16:48:43,141 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 16:48:43.141635------------------------*/
+2024-12-17 16:49:00,706 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 16:49:00.706688------------------------*/
+2024-12-17 16:49:01,047 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 16:49:01,534 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 16:49:01,541 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-17 16:49:01.541626------------------------*/
+2024-12-17 16:49:01,542 - DEBUG - ?
+2024-12-17 16:49:01,542 - DEBUG - [chkOrders(type=orders)] data length : 5 rows
+2024-12-17 16:49:01,550 - DEBUG - [chkOrders()] - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 16:49:01,550 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-17 16:49:01.550625------------------------*/
+2024-12-17 16:49:01,550 - DEBUG - [chkOrders()] - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 16:49:01,552 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 16:49:01,553 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 16:49:01,553 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 16:49:01.553626------------------------*/
+2024-12-17 16:49:19,975 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 16:49:19.975854------------------------*/
+2024-12-17 16:49:20,313 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 16:49:20,772 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 16:49:20,778 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-17 16:49:20.778632------------------------*/
+2024-12-17 16:49:20,778 - DEBUG - ?
+2024-12-17 16:49:20,779 - DEBUG - [chkOrders(type=orders)] data length : 5 rows
+2024-12-17 16:49:20,787 - DEBUG - [chkOrders()] - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 16:49:20,789 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-17 16:49:20.789640------------------------*/
+2024-12-17 16:49:20,790 - DEBUG - [chkOrders()] - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 16:49:20,791 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 16:49:20,791 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 16:49:20,792 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 16:49:20.792629------------------------*/
+2024-12-17 17:38:32,305 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-17 17:38:32.305951------------------------*/
+2024-12-17 17:38:34,070 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/__excel/40d50fe2-520d-4b26-977c-455f9d0be1a4.xlsx, skiprows=2, usecols=B:I, headerrow=0
+2024-12-17 17:38:34,702 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-17 17:38:34,709 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-17 17:38:34.709692------------------------*/
+2024-12-17 17:38:34,710 - DEBUG - [chkOrders(type=orders)] data length : 5 rows
+2024-12-17 17:38:34,722 - DEBUG - [chkOrders()] - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 17:38:34,723 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-17 17:38:34.723688------------------------*/
+2024-12-17 17:38:34,723 - DEBUG - [chkOrders()] - SUCCESS, orders,    od_num    od_date od_end_date od_regist_date od_register_id  od_state  od_target_num od_type
+0       1 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              1       C
+1       2 2024-12-12  2024-12-25     2024-12-12      rassayz60         2              2       C
+2       3 2024-12-12  2024-12-17     2024-12-12      rassayz60         4              3       C
+3       4 2024-12-12  2024-12-15     2024-12-12      rassayz60         2              4       C
+4       5 2024-12-12  2024-12-21     2024-12-12      rassayz60         5              5       C
+2024-12-17 17:38:34,724 - DEBUG - [STEP-4] INSERT : 5 rows inserted into the table [orders].
+2024-12-17 17:38:34,724 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-17 17:38:34,724 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-17 17:38:34.724689------------------------*/

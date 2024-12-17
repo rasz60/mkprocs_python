@@ -8,6 +8,8 @@ levels = [
             logging.ERROR, 
             logging.CRITICAL
          ];
+
+
 def set_init_log(log_name, file_name, lv):
     level = levels[lv]
 
