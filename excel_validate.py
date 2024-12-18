@@ -42,13 +42,9 @@ def chkOrders(type, data):
     global log, valid
     log.debug(f'[chkOrders(type={type})] data length : {len(data)} rows')
     
-    """
-    #----Validation 로직 구현----#
-    
-    
-    
-    
-    """
+    #----Validation 로직 구현----# 
+
+
 
     #chkOrders DATA
     valid['flag'] = True
