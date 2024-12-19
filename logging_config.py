@@ -1,6 +1,6 @@
 import logging
 
-root_path = './logs/';
+root_path = 'C:/Users/jinwoong/IdeaProjects/sixtdev/python_modules/excel_parse/logs/';
 levels = [
             logging.DEBUG, 
             logging.INFO, 

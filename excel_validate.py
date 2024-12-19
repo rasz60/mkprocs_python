@@ -44,6 +44,7 @@ def chkOrders(type, data):
     
     #----Validation 로직 구현----# 
 
+    # 1. 
 
 
     #chkOrders DATA

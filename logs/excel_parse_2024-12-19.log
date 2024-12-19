@@ -1,0 +1,12 @@
+2024-12-19 13:38:26,514 - DEBUG - /*------------------------[ExcelParser] Start : 2024-12-19 13:38:26.514772------------------------*/
+2024-12-19 13:38:29,044 - DEBUG - [STEP-1] EXCEL_LOAD : file=C:\Users\jinwoong\IdeaProjects\sixtdev\python_modules\excel_parse\__excel\eeece466-9e8d-460c-8aed-88c80286135f.xlsx, skiprows=2, usecols=C:I, headerrow=0
+2024-12-19 13:38:29,971 - DEBUG - [STEP-2] DB Connect : postgresql://mkprocs:mkprocs1234%21%40@localhost:5432/mkprocsDB
+2024-12-19 13:38:29,979 - DEBUG - /*------------------------[chkData(type=orders)] Start : 2024-12-19 13:38:29.979897------------------------*/
+2024-12-19 13:38:29,993 - DEBUG - [chkOrders(type=orders)] data length : 5 rows
+2024-12-19 13:38:29,993 - DEBUG - [chkOrders(type=orders)] - SUCCESS
+2024-12-19 13:38:29,993 - DEBUG - /*------------------------[chkData(type=orders)] E n d : 2024-12-19 13:38:29.993897------------------------*/
+2024-12-19 13:38:29,994 - DEBUG - [chkOrders(type=orders)] - SUCCESS
+2024-12-19 13:38:29,994 - DEBUG - [STEP-4] DATA_INSERT : 5 rows inserted into the table [orders].
+2024-12-19 13:38:30,186 - INFO - work_id : eeece466-9e8d-460c-8aed-88c80286135f, work_state : S, work_end_date : 2024-12-19 13:38:30.185458
+2024-12-19 13:38:30,521 - DEBUG - [STEP-5] EXCELPARSE : SUCCESS
+2024-12-19 13:38:30,521 - DEBUG - /*------------------------[ExcelParser] E n d : 2024-12-19 13:38:30.521459------------------------*/
